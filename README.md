@@ -1,8 +1,8 @@
 # Ansible Role: GitLab
 
-**Deprecated**: In September 2023, I deprecated this role as I am no longer maintaining any GitLab instances, and use Gitea instead for my personal work. Please consider forking this role or use someone else's GitLab role.
+This role was a clone from Jeff Geerling's now-decommissioned project: <https://github.com/guerzon/ansible-role-gitlab/>.
 
-[![CI](https://github.com/geerlingguy/ansible-role-gitlab/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-gitlab/actions?query=workflow%3ACI)
+[![CI](https://github.com/guerzon/ansible-role-gitlab/workflows/CI/badge.svg?event=push)](https://github.com/guerzon/ansible-role-gitlab/actions?query=workflow%3ACI)
 
 Installs GitLab, a Ruby-based front-end to Git, on any RedHat/CentOS or Debian/Ubuntu linux system.
 
@@ -177,7 +177,7 @@ None.
       vars_files:
         - vars/main.yml
       roles:
-        - { role: geerlingguy.gitlab }
+        - { role: guerzon.gitlab }
 
 *Inside `vars/main.yml`*:
 
@@ -189,4 +189,6 @@ MIT / BSD
 
 ## Author Information
 
-This role was created in 2014 by [Jeff Geerling](http://jeffgeerling.com/), author of [Ansible for DevOps](http://ansiblefordevops.com/).
+This role was originally created in 2014 by [Jeff Geerling](http://jeffgeerling.com/), author of [Ansible for DevOps](http://ansiblefordevops.com/).
+
+In 2025, this role was forked and started being maintained by [Lester Guerzon](https://github.com/guerzon).

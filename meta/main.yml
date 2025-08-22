@@ -3,7 +3,7 @@ dependencies: []
 
 galaxy_info:
   role_name: gitlab
-  author: Lester Guerzon
+  author: guerzon
   description: GitLab Git web interface
   issue_tracker_url: https://github.com/guerzon/ansible-role-vaultwarden/issues
   license: "MIT"
